@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ORTHRUS Summary | Cybersecurity 2026</title>
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+  <header class="site-header compact">
+    <p class="eyebrow">USENIX SECURITY 2025</p>
+    <h1>ORTHRUS</h1>
+    <p class="subtitle">Achieving High Quality of Attribution in Provenance-based Intrusion Detection Systems</p>
+  </header>
+  <nav aria-label="Main menu"><a href="../../../index.html">Home</a><a href="../../../syllabus.html">Syllabus</a><a href="../../../lectures.html">Lectures</a><a href="../../../exams.html">Exams</a><a href="../../../papers.html">Papers ('26)</a><a class="active" href="../../../papers-2025.html">Papers ('25)</a></nav>
+  <main class="paper-detail">
+    <section class="paper-hero-detail">
+      <p class="section-label">SYSTEM SECURITY / PROVENANCE IDS</p>
+      <h2>ORTHRUS: attribution quality를 중심에 둔 provenance-based IDS</h2>
+      <p class="lead">이 논문의 핵심은 “공격을 맞혔는가?”보다 “분석가가 실제로 조사해야 하는 노드를 얼마나 정확히 줄였는가?”를 묻는 데 있다. ORTHRUS는 whole-system provenance graph에서 node-level anomaly를 찾고, dependency analysis로 attack summary graph를 재구성해 alert fatigue를 줄이려는 시스템이다.</p>
+      <div class="paper-meta-grid">
+        <div><strong>Authors</strong><span>Baoxiang Jiang, Tristan Bilot, Nour El Madhoun, Khaldoun Al Agha, Anis Zouaoui, Shahrear Iqbal, Xueyuan Han, Thomas Pasquier</span></div>
+        <div><strong>Venue</strong><span>USENIX Security 2025, Cycle 1</span></div>
+        <div><strong>Category</strong><span>System Security</span></div>
+        <div><strong>Artifacts</strong><span>Public datasets, annotations, and source code are referenced by the paper.</span></div>
+      </div>
+      <div class="link-row">
+        <a class="note-button" href="https://www.usenix.org/system/files/usenixsecurity25-jiang-baoxiang.pdf" target="_blank" rel="noopener">Paper</a>
+        <a class="note-button" href="https://www.usenix.org/conference/usenixsecurity25/presentation/jiang-baoxiang" target="_blank" rel="noopener">USENIX Page</a>
+        <a class="video-button" href="https://www.youtube.com/watch?v=_FpCefZeObw" target="_blank" rel="noopener">Presentation Video</a>
+        <a class="note-button" href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-103-jiang-baoxiang.pdf" target="_blank" rel="noopener">Slides</a>
+        <a class="note-button" href="https://zenodo.org/records/14641606" target="_blank" rel="noopener">Code</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="insight-box">
+        <strong>TL;DR</strong>
+        <p>기존 provenance IDS들은 높은 detection accuracy를 보고했지만, 평가 방식이 공격과 무관한 주변 노드까지 “malicious”로 넓게 잡는 경우가 많았다. ORTHRUS는 더 보수적인 node-level ground truth를 만들고, benign-only self-supervised temporal GNN과 causality tracing을 결합해 분석가가 볼 노드 수를 몇 자릿수 줄이는 것을 목표로 한다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>문제의식: IDS의 출력은 맞아도 사람이 못 쓸 수 있다</h2>
+      <p>논문이 지적하는 실전 문제는 attribution이다. Provenance graph는 process, file, socket 같은 OS 객체와 system call 기반 상호작용을 그래프로 저장한다. 이 그래프에서 침입을 찾는 PIDS는 APT 같은 unknown attack을 잡는 데 유용하지만, 출력이 너무 크면 분석가는 root cause와 damage를 찾기 어렵다.</p>
+      <p>저자들은 이를 <strong>Quality of Attribution (QoA)</strong>라고 부른다. QoA는 IDS 출력에서 공격 원인, 영향 범위, false alarm 여부를 조사하는 데 필요한 인간 분석가의 노력을 의미한다. 따라서 이 논문에서 좋은 시스템은 단순히 많은 공격 노드를 recall하는 시스템이 아니라, 적은 수의 정확한 조사 대상을 제시하는 시스템이다.</p>
+
+      <figure class="explain-figure">
+        <figcaption>왜 기존 평가 방식이 alert fatigue를 만들 수 있는가</figcaption>
+        <svg viewBox="0 0 900 280" role="img" aria-label="Comparison of broad evaluation labels and conservative node-level attribution">
+          <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#1476d4"/></marker>
+          </defs>
+          <rect x="20" y="30" width="250" height="205" rx="6" fill="#f2f7fa" stroke="#dce5ed"/>
+          <text x="145" y="62" text-anchor="middle" class="svg-title">Neighborhood / Batch</text>
+          <circle cx="85" cy="118" r="15" fill="#e53935"/><circle cx="135" cy="93" r="12" fill="#e53935"/><circle cx="180" cy="124" r="13" fill="#e53935"/><circle cx="118" cy="170" r="12" fill="#e53935"/><circle cx="198" cy="178" r="11" fill="#e53935"/>
+          <circle cx="70" cy="190" r="9" fill="#e53935"/><circle cx="215" cy="82" r="9" fill="#e53935"/>
+          <line x1="85" y1="118" x2="135" y2="93" stroke="#94a3b8"/><line x1="135" y1="93" x2="180" y2="124" stroke="#94a3b8"/><line x1="180" y1="124" x2="198" y2="178" stroke="#94a3b8"/><line x1="85" y1="118" x2="118" y2="170" stroke="#94a3b8"/><line x1="118" y1="170" x2="70" y2="190" stroke="#94a3b8"/>
+          <text x="145" y="222" text-anchor="middle" class="svg-note">공격 주변까지 넓게 labeling</text>
+
+          <rect x="325" y="30" width="250" height="205" rx="6" fill="#fff8e6" stroke="#e0a126"/>
+          <text x="450" y="62" text-anchor="middle" class="svg-title">Source Approach</text>
+          <circle cx="385" cy="112" r="15" fill="#e53935"/><circle cx="430" cy="145" r="12" fill="#e53935"/><circle cx="475" cy="108" r="12" fill="#e53935"/><circle cx="515" cy="152" r="11" fill="#e53935"/><circle cx="455" cy="190" r="10" fill="#e53935"/>
+          <path d="M385 112 C420 120, 428 135, 430 145" stroke="#94a3b8" fill="none"/><path d="M430 145 C455 125, 470 116, 475 108" stroke="#94a3b8" fill="none"/><path d="M475 108 C500 125, 510 140, 515 152" stroke="#94a3b8" fill="none"/><path d="M430 145 C438 168, 445 180, 455 190" stroke="#94a3b8" fill="none"/>
+          <text x="450" y="222" text-anchor="middle" class="svg-note">source 이후 descendant 과대 포함</text>
+
+          <rect x="630" y="30" width="250" height="205" rx="6" fill="#f7fcfe" stroke="#41c7dd"/>
+          <text x="755" y="62" text-anchor="middle" class="svg-title">ORTHRUS 목표</text>
+          <circle cx="715" cy="128" r="11" fill="#e53935"/><circle cx="770" cy="104" r="10" fill="#e53935"/><circle cx="797" cy="158" r="10" fill="#e53935"/>
+          <circle cx="690" cy="182" r="8" fill="#cbd8e4"/><circle cx="830" cy="95" r="8" fill="#cbd8e4"/>
+          <line x1="715" y1="128" x2="770" y2="104" stroke="#1476d4" marker-end="url(#arrow)"/><line x1="770" y1="104" x2="797" y2="158" stroke="#1476d4" marker-end="url(#arrow)"/>
+          <text x="755" y="222" text-anchor="middle" class="svg-note">직접 관련 노드와 attack path 중심</text>
+        </svg>
+        <p class="figure-note">설명용 재구성 그림이다. 논문 원본 figure를 복사한 것이 아니라, §2와 Table 1의 논지를 시각적으로 요약했다.</p>
+      </figure>
+    </section>
+
+    <section>
+      <h2>핵심 아이디어: detection과 investigation을 분리하지 않는다</h2>
+      <p>ORTHRUS는 anomaly-based PIDS다. 공격 label 없이 benign execution으로 normal behavior를 학습하고, inference 시 reconstruction loss가 큰 edge/node를 suspicious하게 본다. 여기에 끝나지 않고, suspicious node 주변을 causality tracing으로 재구성해 analyst에게 attack summary graph를 제공한다.</p>
+      <div class="pipeline">
+        <div><span>1</span><strong>Graph Construction</strong><p>system logs에서 process, file, netflow와 event를 provenance graph로 구성하고 Causality Preserved Reduction으로 redundant edge를 줄인다.</p></div>
+        <div><span>2</span><strong>Edge Featurization</strong><p>event type, source/destination type, node attribute embeddings를 edge feature로 만든다.</p></div>
+        <div><span>3</span><strong>Temporal Graph Learning</strong><p>최근 N개 temporal neighbors를 attention 기반 GNN encoder로 집계하고 decoder가 edge type을 예측한다.</p></div>
+        <div><span>4</span><strong>Anomaly Detection</strong><p>validation set의 최대 anomaly score로 threshold를 자동 설정하고, K-means로 가장 suspicious한 outlier cluster를 남긴다.</p></div>
+        <div><span>5</span><strong>Attack Reconstruction</strong><p>detected node에서 backward/forward tracing을 수행해 critical entry와 exit를 고르고 attack graph를 만든다.</p></div>
+      </div>
+
+      <figure class="explain-figure">
+        <figcaption>ORTHRUS의 데이터 흐름</figcaption>
+        <svg viewBox="0 0 980 300" role="img" aria-label="ORTHRUS pipeline from system logs to attack summary graph">
+          <defs>
+            <marker id="arrow-flow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#1476d4"/></marker>
+          </defs>
+          <rect x="25" y="80" width="140" height="90" rx="6" fill="#f2f7fa" stroke="#dce5ed"/>
+          <text x="95" y="114" text-anchor="middle" class="svg-title">System logs</text>
+          <text x="95" y="142" text-anchor="middle" class="svg-note">process / file / netflow</text>
+          <path d="M170 125 H235" stroke="#1476d4" stroke-width="2" marker-end="url(#arrow-flow)"/>
+          <rect x="245" y="65" width="150" height="120" rx="6" fill="#fff" stroke="#41c7dd"/>
+          <text x="320" y="102" text-anchor="middle" class="svg-title">Provenance graph</text>
+          <circle cx="290" cy="140" r="10" fill="#1476d4"/><circle cx="330" cy="122" r="10" fill="#41c7dd"/><circle cx="355" cy="154" r="10" fill="#e0a126"/>
+          <line x1="290" y1="140" x2="330" y2="122" stroke="#94a3b8"/><line x1="330" y1="122" x2="355" y2="154" stroke="#94a3b8"/>
+          <path d="M400 125 H465" stroke="#1476d4" stroke-width="2" marker-end="url(#arrow-flow)"/>
+          <rect x="475" y="65" width="170" height="120" rx="6" fill="#f2f7fa" stroke="#dce5ed"/>
+          <text x="560" y="98" text-anchor="middle" class="svg-title">Temporal GNN</text>
+          <text x="560" y="126" text-anchor="middle" class="svg-note">edge type prediction</text>
+          <text x="560" y="153" text-anchor="middle" class="svg-note">loss = anomaly score</text>
+          <path d="M650 125 H715" stroke="#1476d4" stroke-width="2" marker-end="url(#arrow-flow)"/>
+          <rect x="725" y="65" width="100" height="120" rx="6" fill="#fff8e6" stroke="#e0a126"/>
+          <text x="775" y="104" text-anchor="middle" class="svg-title">Outliers</text>
+          <circle cx="755" cy="145" r="8" fill="#cbd8e4"/><circle cx="778" cy="145" r="8" fill="#cbd8e4"/><circle cx="801" cy="145" r="8" fill="#e53935"/>
+          <path d="M830 125 H895" stroke="#1476d4" stroke-width="2" marker-end="url(#arrow-flow)"/>
+          <rect x="905" y="65" width="50" height="120" rx="6" fill="#f7fcfe" stroke="#41c7dd"/>
+          <text x="930" y="108" text-anchor="middle" class="svg-title">Attack</text>
+          <text x="930" y="134" text-anchor="middle" class="svg-title">graph</text>
+          <text x="490" y="240" class="svg-note">논문 명시: N=10~20 temporal sampling과 z=32 embedding이 평균적으로 좋은 성능을 보임.</text>
+        </svg>
+        <p class="figure-note">설명용 재구성 그림이다. 논문 Figure 1의 구조를 복사하지 않고 페이지용으로 단순화했다.</p>
+      </figure>
+    </section>
+
+    <section>
+      <h2>기술적 디테일</h2>
+      <div class="detail-grid">
+        <article class="mini-card"><h3>Feature 설계</h3><p>노드 type과 edge/event type은 one-hot encoding으로 표현한다. file path, command line, IP address 같은 textual attribute는 tokenization 후 Word2vec Skip-gram으로 embedding하고 평균을 내 node feature로 사용한다.</p></article>
+        <article class="mini-card"><h3>Temporal sampling</h3><p>edge (u, v)가 시간 t에 들어오면, v에 대해 t 이전에 발생한 incoming edge 중 최근 N개를 샘플링한다. 이렇게 고정 크기 context를 쓰기 때문에 temporal signal을 유지하면서 scalability를 제어한다.</p></article>
+        <article class="mini-card"><h3>Encoder/decoder</h3><p>encoder는 GraphTransformer 계열 attention GNN으로 source/destination node와 edge feature를 집계한다. decoder는 source/destination embedding을 구분해 edge type을 예측하고 cross-entropy loss를 reconstruction error로 사용한다.</p></article>
+        <article class="mini-card"><h3>Attack reconstruction</h3><p>detected node p를 중심으로 기본 15분 time window의 subgraph를 만들고 DAG로 변환한다. backward tracing으로 entry, forward tracing으로 exit를 찾은 뒤 degree score와 anomaly score를 결합한 criticality score로 핵심 path를 고른다.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Evaluation: “몇 개를 맞혔나”보다 “얼마나 적게 보여줬나”</h2>
+      <p>평가는 DARPA Transparent Computing E3/E5 데이터셋을 사용했다. 세 capture mechanism인 CADETS, THEIA, CLEARSCOPE가 각각 FreeBSD, Linux, Android 환경에서 system provenance를 수집한다. 논문은 기존 기준 대신 직접 관련 malicious node만 보수적으로 labeling한 ground truth를 만들었다.</p>
+      <div class="metric-row">
+        <div><strong>6</strong><span>evaluated dataset splits</span></div>
+        <div><strong>41-123</strong><span>malicious nodes in the authors' ground truth per test set</span></div>
+        <div><strong>1:10k-1:1M</strong><span>reported malicious-node prevalence range</span></div>
+        <div><strong>5</strong><span>state-of-the-art baselines</span></div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Dataset</th><th>ORTHRUS-full</th><th>Best contrast in paper</th><th>Takeaway</th></tr></thead>
+          <tbody>
+            <tr><td>E3-CADETS</td><td>25 TP, 23 FP, precision 0.52, MCC 0.44</td><td>Flash: 13 TP, 2,381 FP, precision 0.01</td><td>ORTHRUS gives far fewer nodes to inspect.</td></tr>
+            <tr><td>E3-THEIA</td><td>48 TP, 11 FP, precision 0.81, MCC 0.57</td><td>MAGIC: 115 TP, 394,906 FP</td><td>High recall alone can bury analysts.</td></tr>
+            <tr><td>E5-THEIA</td><td>13 TP, 2 FP, precision 0.87, MCC 0.40</td><td>Flash: 43 TP, 295,729 FP</td><td>Precision and QoA improve sharply.</td></tr>
+            <tr><td>E5-CADETS</td><td>2 TP, 10 FP, precision 0.17, MCC 0.05</td><td>All systems struggle here</td><td>Capture mechanism and missing graph elements matter.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figure class="explain-figure compact-chart">
+        <figcaption>Table 1의 핵심: ground truth 크기가 평가 철학을 바꾼다</figcaption>
+        <svg viewBox="0 0 900 270" role="img" aria-label="Ground truth size comparison for selected datasets">
+          <line x1="120" y1="215" x2="820" y2="215" stroke="#dce5ed"/>
+          <line x1="120" y1="45" x2="120" y2="215" stroke="#dce5ed"/>
+          <text x="120" y="238" text-anchor="middle" class="svg-note">E3-CADETS</text>
+          <text x="320" y="238" text-anchor="middle" class="svg-note">E3-THEIA</text>
+          <text x="520" y="238" text-anchor="middle" class="svg-note">E5-CADETS</text>
+          <text x="720" y="238" text-anchor="middle" class="svg-note">E5-THEIA</text>
+          <rect x="80" y="172" width="28" height="43" fill="#1476d4"/><rect x="112" y="198" width="28" height="17" fill="#41c7dd"/><rect x="144" y="208" width="28" height="7" fill="#e53935"/>
+          <rect x="280" y="130" width="28" height="85" fill="#1476d4"/><rect x="312" y="44" width="28" height="171" fill="#41c7dd"/><rect x="344" y="215" width="28" height="1" fill="#e53935"/>
+          <rect x="480" y="208" width="28" height="7" fill="#1476d4"/><rect x="512" y="0" width="28" height="215" fill="#41c7dd"/><rect x="544" y="215" width="28" height="1" fill="#e53935"/>
+          <rect x="680" y="65" width="28" height="150" fill="#1476d4"/><rect x="712" y="158" width="28" height="57" fill="#41c7dd"/><rect x="744" y="215" width="28" height="1" fill="#e53935"/>
+          <circle cx="820" cy="78" r="6" fill="#1476d4"/><text x="835" y="82" class="svg-note">Neighborhood</text>
+          <circle cx="820" cy="103" r="6" fill="#41c7dd"/><text x="835" y="107" class="svg-note">Batch</text>
+          <circle cx="820" cy="128" r="6" fill="#e53935"/><text x="835" y="132" class="svg-note">ORTHRUS ground truth</text>
+        </svg>
+        <p class="figure-note">설명용 차트이며 bar height는 log-scale 직관화를 위해 재구성했다. 실제 값 예: E3-CADETS는 Neighborhood 12,852 / Batch 4,929 / Source 2,062 / Ours 68, E5-CADETS는 Batch 717,783 / Source 401,065 / Ours 123.</p>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Contribution과 limitation</h2>
+      <div class="two-column-notes">
+        <div class="info-box">
+          <h3>논문이 직접 주장하는 contribution</h3>
+          <p>첫째, whole-system provenance graph에서 의미 있는 node-level detection을 수행하며 분석 대상 데이터를 몇 자릿수 줄이는 PIDS를 제안한다. 둘째, DARPA E3/E5 benchmark에 대해 더 보수적이고 공개된 node-level ground truth annotation을 만든다. 셋째, 구현과 artifact를 공개해 재현성을 높인다.</p>
+        </div>
+        <div class="warning">
+          <h3>한계와 open question</h3>
+          <p>false positive가 여전히 malicious node의 one-hop neighborhood에서 발생할 수 있다. E5-CADETS처럼 capture mechanism이 path나 netflow 정보를 덜 제공하거나 graph element가 누락될 수 있는 경우 성능이 약해진다. 또한 concept drift에 대응하기 위한 지속적 retraining 문제는 전용 dataset 부족으로 충분히 평가되지 않았다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>가져갈 핵심 insight</h2>
+      <p>이 논문을 읽을 때 가장 중요한 관점은 “anomaly detection 성능”과 “forensic attribution 품질”을 분리해서 보아야 한다는 점이다. PIDS가 공격 근처의 수십만 노드를 anomalous하게 보여준다면 detection 논문으로는 좋아 보여도 운영 환경에서는 실패할 수 있다. ORTHRUS의 가치는 모델 구조 자체뿐 아니라, 평가 기준을 analyst workload에 맞게 다시 세운 데 있다.</p>
+      <p class="source-note">이 페이지의 수치와 기술 설명은 제공/공식 PDF `usenixsecurity25-jiang-baoxiang.pdf`에서 확인한 내용을 기반으로 작성했다. 다이어그램은 이해를 돕기 위한 재해석이며 원본 figure 복사가 아니다.</p>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 DAS Lab, Jeonbuk National University</p></footer>
+</body>
+</html>

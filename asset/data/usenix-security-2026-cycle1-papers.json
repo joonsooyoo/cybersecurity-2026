@@ -1,0 +1,2850 @@
+{
+  "source": "https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers",
+  "venue": "USENIX Security 2026",
+  "cycle": 1,
+  "taxonomy": [
+    "System Security",
+    "Network Security",
+    "Security and Privacy for Web, Mobile, and Emerging Technologies",
+    "Software Security",
+    "Security of ML",
+    "Privacy of ML",
+    "Privacy and Anonymity",
+    "Human Aspects",
+    "Hardware Security",
+    "Applications of Cryptography"
+  ],
+  "papers": [
+    {
+      "id": "usenix-security-2026-cycle1-peng-jiaqian",
+      "title": "Bond: Constraint-Directed Fuzzing for Automated Validation of Taint Analysis Results in Linux-based IoT Firmware",
+      "authors": [
+        "Jiaqian Peng",
+        "Puzhuo Liu",
+        "Kai Cheng",
+        "Zhaoteng Yan",
+        "Jie Liu",
+        "Chengnian Sun",
+        "Hongsong Zhu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-jiaqian",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-jiaqian",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-lehmkuhl",
+      "title": "Heli: Heavy-Light Private Aggregation",
+      "authors": [
+        "Ryan Lehmkuhl",
+        "Henry Corrigan-Gibbs",
+        "Emma Dauterman",
+        "David J. Wu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lehmkuhl",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lehmkuhl",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-thompson",
+      "title": "\"Your imaging may be stone-cold normal, but if they look sick, they’re going to get admitted\": An Investigation of Clinicians’ Perceptions of Impact & Likelihood of Security Failures",
+      "authors": [
+        "Ronald E. Thompson III",
+        "Hamza Khalid",
+        "Hilary Fisher",
+        "Rhea Votipka",
+        "Daniel Votipka"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/thompson",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/thompson",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-flammarion",
+      "title": "Hop: A Modern Transport and Remote Access Protocol",
+      "authors": [
+        "Paul Flammarion",
+        "George Hosono",
+        "Wilson Nguyen",
+        "Laura Bauman",
+        "Daniel Rebelsky",
+        "Gerry Wan",
+        "David Adrian",
+        "Zakir Durumeric"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/flammarion",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/flammarion",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-qiu-chenxi",
+      "title": "Interpolation-Based Optimization for Enforcing lp-Norm Metric Differential Privacy in Continuous and Fine-Grained Domains",
+      "authors": [
+        "Chenxi Qiu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qiu-chenxi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qiu-chenxi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-tong",
+      "title": "Membership Inference Attacks on Tokenizers of Large Language Models",
+      "authors": [
+        "Meng Tong",
+        "Yuntao Du",
+        "Kejiang Chen",
+        "Weiming Zhang",
+        "Ninghui Li"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/tong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/tong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-he-zeqing",
+      "title": "JailbreakScope: Interpreting Jailbreak Mechanism through Representation and Circuit Analyses",
+      "authors": [
+        "Zeqing He",
+        "Zhibo Wang",
+        "Zhixuan Chu",
+        "Huiyu Xu",
+        "Wenhui Zhang",
+        "Qinglong Wang",
+        "Rui Zheng"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-zeqing",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-zeqing",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-du",
+      "title": "Imitative Membership Inference Attack",
+      "authors": [
+        "Yuntao Du",
+        "Yuetian Chen",
+        "Hanshen Xiao",
+        "Bruno Ribeiro",
+        "Ninghui Li"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/du",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/du",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-lv",
+      "title": "SMASH: Scalable Maliciously Secure Hybrid Multi-party Computation Framework for Privacy-Preserving Large Language Models",
+      "authors": [
+        "Yunlv Lv",
+        "Rui Zhang",
+        "Zhiyuan Zhang",
+        "Ziyi Wan",
+        "Lanxue Zhang",
+        "Minhui Xue",
+        "Jiangtao Li",
+        "Yanan Cao"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lv",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lv",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhang-jiayi",
+      "title": "XGuardian: Towards Generalized, Explainable and More Effective Server-side Anti-cheat in First-Person Shooter Games",
+      "authors": [
+        "Jiayi Zhang",
+        "Chenxin Sun",
+        "Chenxiong Qian"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-jiayi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-jiayi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-deng",
+      "title": "The Prompt Stealing Fallacy: Rethinking Metrics, Attacks, and Defenses",
+      "authors": [
+        "Zehang Deng",
+        "Haoyang Li",
+        "Wanlun Ma",
+        "Ruoxi Sun",
+        "Derui Wang",
+        "Minhui Xue",
+        "Haibo Hu",
+        "Sheng Wen",
+        "Yang Xiang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/deng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/deng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-pasquini",
+      "title": "When AIOps Become \"AI Oops\": Subverting LLM-driven IT Operations via Telemetry Manipulation",
+      "authors": [
+        "Dario Pasquini",
+        "Evgenios M. Kornaropoulos",
+        "Giuseppe Ateniese",
+        "Omer Akgul",
+        "Athanasios Theocharis",
+        "Petros Efstathopoulos"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-czybik",
+      "title": "A Large-Scale Study of Personalized Phishing using Large Language Models",
+      "authors": [
+        "Stefan Czybik",
+        "Anne Josiane Kouam",
+        "Peter Heubl",
+        "Jan Magnus Nold",
+        "Konrad Rieck"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/czybik",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/czybik",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-cremers",
+      "title": "Secure Protocol Composition under Dynamic Corruption: Scaling Up Symbolic Analysis for Real-World Security Properties",
+      "authors": [
+        "Cas Cremers",
+        "Erik Pallas",
+        "Aleksi Peltonen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/cremers",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/cremers",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-merget",
+      "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+      "authors": [
+        "Robert Merget",
+        "Nurullah Erinola",
+        "Marcel Maehren",
+        "Lukas Knittel",
+        "Sven Hebrok",
+        "Marcus Brinkmann",
+        "Juraj Somorovsky",
+        "Jörg Schwenk"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-leblanc-albarel",
+      "title": "Breaking Widely Deployed Perceptual Hash Functions: Black-Box Collisions in Apple NeuralHash and Microsoft PhotoDNA",
+      "authors": [
+        "Diane Leblanc-Albarel",
+        "Bart Preneel"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/leblanc-albarel",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/leblanc-albarel",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-scarlata",
+      "title": "Zero Knowledge (About) Encryption: A Comparative Security Analysis of Three Cloud-based Password Managers",
+      "authors": [
+        "Matteo Scarlata",
+        "Giovanni Torrisi",
+        "Matilda Backendal",
+        "Kenneth G. Paterson"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/scarlata",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/scarlata",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-mongardini",
+      "title": "A Midsummer Meme's Dream: Investigating Market Manipulations in the Meme Coin Ecosystem",
+      "authors": [
+        "Alberto Maria Mongardini",
+        "Alessandro Mei"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/mongardini",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/mongardini",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gao-rui",
+      "title": "Distributed Vector Commitments and Their Applications",
+      "authors": [
+        "Rui Gao",
+        "Huaqun Wang",
+        "Zhiguo Wan",
+        "Yuncong Hu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-rui",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-rui",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-weyns",
+      "title": "From Mirai to Gorilla: Deep Dive into a Long-Lasting DDoS-for-Hire Botnet",
+      "authors": [
+        "Maarten Weyns",
+        "Dario Ferrero",
+        "Stefan Op de Beek",
+        "Daniel Wagner",
+        "Georgios Smaragdakis",
+        "Harm Griffioen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/weyns",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/weyns",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-shi-quan",
+      "title": "LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks",
+      "authors": [
+        "Quan Shi",
+        "Liying Wang",
+        "Prosanta Gope",
+        "Qi Liang",
+        "Haowen Wang",
+        "Qirui Liu",
+        "Chenren Xu",
+        "Shangguang Wang",
+        "Qing Li",
+        "Biplab Sikdar"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-hofhammer",
+      "title": "PrivacyShield: Relaying BLE Beacons to Counter Unsolicited Tracking",
+      "authors": [
+        "Florian Hofhammer",
+        "Daniele Antonioli",
+        "Mathias Payer"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hofhammer",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hofhammer",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-prakash",
+      "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
+      "authors": [
+        "Vijay Prakash",
+        "Majed Almansoori",
+        "Donghan Hu",
+        "Rahul Chatterjee",
+        "Danny Yuxing Huang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/prakash",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/prakash",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhang-tao-residual",
+      "title": "Residual-PAC Privacy: Automatic Privacy Control Beyond the Gaussian Barrier",
+      "authors": [
+        "Tao Zhang",
+        "Yevgeniy Vorobeychik"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-tao-residual",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-tao-residual",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-amgain",
+      "title": "HAMLOCK: HArdware-Model LOgically Combined attacK",
+      "authors": [
+        "Sanskar Amgain",
+        "Daniel Lobo",
+        "Atri Chatterjee",
+        "Swarup Bhunia",
+        "Fnu Suya"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/amgain",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/amgain",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-bell-clark",
+      "title": "Vεrity: Verifiable Local Differential Privacy",
+      "authors": [
+        "James Bell-Clark",
+        "Adrià Gascón",
+        "Baiyu Li",
+        "Mariana Raykova",
+        "Amrita Roy Chowdhury"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bell-clark",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bell-clark",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-vetrivel",
+      "title": "Missing, Present and Conflicting: A Large Scale Analysis of IoT Update Information in the EU Market",
+      "authors": [
+        "Swaathi Vetrivel",
+        "Michel van Eeten",
+        "Carlos H. Gañán"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/vetrivel",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/vetrivel",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhang-yuyang",
+      "title": "VSG-Safe: Spotting NSFW Video through Cross-Frame Evidence",
+      "authors": [
+        "Yuyang Zhang",
+        "Xudong Jiang",
+        "Yuxuan Song",
+        "Yuxiang Sun",
+        "Yihao Huang",
+        "Run Wang",
+        "Shundi Xiao",
+        "Lina Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-yuyang",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-yuyang",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-guo-wenbo",
+      "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+      "authors": [
+        "Wenbo Guo",
+        "Chengwei Liu",
+        "Ming Kang",
+        "Yiran Zhang",
+        "Jiahui Wu",
+        "Zhengzi Xu",
+        "Vinay Sachidananda",
+        "Yang Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-knabenhans",
+      "title": "End-to-End Encrypted Collaborative Documents",
+      "authors": [
+        "Christian Knabenhans",
+        "Zayd Maradni",
+        "Carmela Troncoso"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/knabenhans",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/knabenhans",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-lee-keewoo",
+      "title": "SophOMR: Improved Oblivious Message Retrieval from SIMD-Aware Homomorphic Compression",
+      "authors": [
+        "Keewoo Lee",
+        "Yongdong Yeo"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lee-keewoo",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lee-keewoo",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-liqun",
+      "title": "FABS: Fast Attribute-Based Signatures",
+      "authors": [
+        "Liqun Chen",
+        "Long Meng",
+        "Yalan Wang",
+        "Nada El Kassem",
+        "Christopher JP Newton",
+        "Yangguang Tian",
+        "Jodie Knapp",
+        "Constantin Cătălin Drăgan",
+        "Daniel Gardham",
+        "Mark Manulis"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-liqun",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-liqun",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-yang-tianchang",
+      "title": "Invariant-Guided Logical Testing of Open RAN Controllers",
+      "authors": [
+        "Tianchang Yang",
+        "Ali Ranjbar",
+        "Gang Tan",
+        "Syed Rafiul Hussain"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/yang-tianchang",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/yang-tianchang",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-bach",
+      "title": "Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP",
+      "authors": [
+        "Martin Bach",
+        "Vukašin Karadžić",
+        "Lukas Knittel",
+        "Robert Merget",
+        "Jean Paul Degabriele"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bach",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bach",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kumar-akshaya",
+      "title": "Security and Privacy Analysis of Tile's Location Tracking Protocol",
+      "authors": [
+        "Akshaya Kumar",
+        "Anna Raymaker",
+        "Michael A. Specter"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-akshaya",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-akshaya",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-qi-minfeng",
+      "title": "VIPER Strike: Defeating Visual Reasoning CAPTCHAs via Structured Vision–Language Inference",
+      "authors": [
+        "Minfeng Qi",
+        "Dongyang He",
+        "Qin Wang",
+        "Lefeng Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qi-minfeng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qi-minfeng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-marjanov",
+      "title": "Stayin' Alive: How Global Stolen Data Markets Thrive on Telegram",
+      "authors": [
+        "Tina Marjanov",
+        "Taro Tsuchiya",
+        "Konstantinos Ioannidis",
+        "Jack Hughes",
+        "Nicolas Christin",
+        "Alice Hutchings"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/marjanov",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/marjanov",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-blass",
+      "title": "Assumption-Free Fuzzy PSI via Predicate Encryption",
+      "authors": [
+        "Erik-Oliver Blass",
+        "Guevara Noubir"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/blass",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/blass",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-liu-yizhong",
+      "title": "Logos: Robust Sharding Blockchain With Fast Processing and Optimal Cross-Shard Overhead",
+      "authors": [
+        "Yizhong Liu",
+        "Boyu Zhao",
+        "Yuxuan Hu",
+        "Haojun Tan",
+        "Feiang Ran",
+        "Andi Liu",
+        "Zhuocheng Pan",
+        "Yuan Lu",
+        "Song Bian",
+        "Jianwei Liu",
+        "Zhenyu Guan"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yizhong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yizhong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-alam",
+      "title": "SoK: PHILTER: Uncovering Security and Functional Gaps in AI-based Phishing Website Detection Literature via an LLM-based Reasoning Framework",
+      "authors": [
+        "Mahbub Alam",
+        "Muhammad Lutfor Rahman",
+        "Sonjoy Kumar Paul",
+        "Amy W. Hays",
+        "Aftab Hussain",
+        "Md Imanul Huq",
+        "Nitesh Saxena"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/alam",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/alam",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-song-xiangfu",
+      "title": "Streaming Function Secret Sharing and Its Applications",
+      "authors": [
+        "Xiangfu Song",
+        "Jianli Bai",
+        "Ye Dong",
+        "Yijian Liu",
+        "Yu Zhang",
+        "Xianhui Lu",
+        "Tianwei Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-xiangfu",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-xiangfu",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-li-weihan",
+      "title": "Shred-to-Shine Metamorphosis of (Distributed) Polynomial Commitments",
+      "authors": [
+        "Weihan Li",
+        "Zongyang Zhang",
+        "Sherman S. M. Chow",
+        "Yanpei Guo",
+        "Boyuan Gao",
+        "Xuyang Song",
+        "Yi Deng",
+        "Jianwei Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-weihan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-weihan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-meng",
+      "title": "Unbalanced Fuzzy Private Set Intersection for L_infinity Distance: Achieving Sublinear Communication with Large Set Size",
+      "authors": [
+        "Shengzhe Meng",
+        "Xiaodong Wang",
+        "Xv Zhou",
+        "Bei Liang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/meng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/meng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wang-hongxiao",
+      "title": "mmCipher: Batching Post-Quantum Public Key Encryption Made Bandwidth-Optimal",
+      "authors": [
+        "Hongxiao Wang",
+        "Ron Steinfeld",
+        "Markku-Juhani O. Saarinen",
+        "Muhammed F. Esgin",
+        "Siu-Ming Yiu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-hongxiao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-hongxiao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-ben-simhon",
+      "title": "DNS Cache Poisoning Like it’s 2006",
+      "authors": [
+        "Omer Ben-Simhon",
+        "Amit Klein"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ben-simhon",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ben-simhon",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-decheng",
+      "title": "UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution",
+      "authors": [
+        "Decheng Chen",
+        "Zhi Zhang",
+        "Zhenkai Zhang",
+        "Xin Zhang",
+        "Yansong Gao",
+        "Yi Zou"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-decheng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-decheng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-rodrigues",
+      "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M",
+      "authors": [
+        "Cristiano Rodrigues",
+        "Marton Bognar",
+        "Sandro Pinto",
+        "Jo Van Bulck"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/rodrigues",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/rodrigues",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-xu-liwen",
+      "title": "DaLens: Charting DNS Self-Amplification Threats at Large",
+      "authors": [
+        "Liwen Xu",
+        "Zechao Cai",
+        "Huayi Duan",
+        "Adrian Perrig"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/xu-liwen",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/xu-liwen",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-bhattacharya",
+      "title": "Inconsistent, Incomplete, and Insecure: A Survey of Account Security Interfaces",
+      "authors": [
+        "Arkaprabha Bhattacharya",
+        "Alaa Daffalla",
+        "Kevin Lee",
+        "Rosanna Bellini",
+        "Nicola Dell",
+        "Thomas Ristenpart"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bhattacharya",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bhattacharya",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-shrestha",
+      "title": "Hydrangea: Optimistic Two-Round Partial Synchrony with Improved Fault Resilience",
+      "authors": [
+        "Nibesh Shrestha",
+        "Aniket Kate",
+        "Kartik Nayak"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shrestha",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shrestha",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-huang-mingyuan",
+      "title": "Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem",
+      "authors": [
+        "Mingyuan Huang",
+        "Han Liu",
+        "Shuo Yang",
+        "Daoyuan Wu",
+        "Shuai Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-mingyuan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-mingyuan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kim-juhee-dmguard",
+      "title": "DMGuard: Safeguarding Kernels from Physical-Page Use-After-Free Vulnerabilities",
+      "authors": [
+        "Juhee Kim",
+        "Jaeyoung Chung",
+        "Dae R. Jeong",
+        "Byoungyoung Lee"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-dmguard",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-dmguard",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-dellepere",
+      "title": "Garuda and Pari: Faster and Smaller SNARKs via Equifficient Polynomial Commitments",
+      "authors": [
+        "Michel Dellepere",
+        "Pratyush Mishra",
+        "Alireza Shirzad"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/dellepere",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/dellepere",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-hafezi",
+      "title": "Transparent Dictionaries from Polynomial Commitments",
+      "authors": [
+        "Hossein Hafezi",
+        "Alireza Shirzad",
+        "Benedikt Bünz",
+        "Joseph Bonneau"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hafezi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hafezi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-celi",
+      "title": "Efficient Threshold ML-DSA",
+      "authors": [
+        "Sofía Celi",
+        "Rafael del Pino",
+        "Thomas Espitau",
+        "Guilhem Niot",
+        "Thomas Prest"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/celi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/celi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-henzinger",
+      "title": "Nudge: A Private Recommendations Engine",
+      "authors": [
+        "Alexandra Henzinger",
+        "Emma Dauterman",
+        "Henry Corrigan-Gibbs",
+        "Dan Boneh"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/henzinger",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/henzinger",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-li-zhichao",
+      "title": "On Evaluating the Robustness of Large Vision-Language Models via Untargeted Modality Alignment Breaking Adversarial Attack",
+      "authors": [
+        "Zhichao Li",
+        "Hongshan Yang",
+        "Zhibo Wang",
+        "Huiyu Xu",
+        "Junhong Lai",
+        "Yaopeng Wang",
+        "Kui Ren",
+        "Chun Chen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-zhichao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-zhichao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gong-easy-hard",
+      "title": "From Easy to Hard++: Promoting Differentially Private Image Synthesis Through Spatial-Frequency Curriculum",
+      "authors": [
+        "Chen GONG",
+        "Kecen Li",
+        "Zinan Lin",
+        "Tianhao Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gong-easy-hard",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gong-easy-hard",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-huang-yizhi",
+      "title": "FIRA: Enabling Automatic Forensic Investigation of Unmanned Aerial Vehicles",
+      "authors": [
+        "Yizhi Huang",
+        "David Oygenblik",
+        "Runze Zhang",
+        "Mingxuan Yao",
+        "Muhammad Ibrahim",
+        "Burak Sahin",
+        "Haichuan Xu",
+        "Saman Zonouz",
+        "Brendan Saltaformaggio"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yizhi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yizhi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wang-liwen",
+      "title": "MASLeak: Investigating and Exposing Intellectual Property Leakage Vulnerabilities in Multi-Agent Systems",
+      "authors": [
+        "Liwen Wang",
+        "Wenxuan Wang",
+        "Shuai Wang",
+        "Zongjie Li",
+        "Zhenlan Ji",
+        "Zongyi Lyu",
+        "Daoyuan Wu",
+        "Shing-Chi Cheung"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gressel",
+      "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams",
+      "authors": [
+        "Gilad Gressel",
+        "Rahul Pankajakshan",
+        "Shir Rozenfeld",
+        "Ling Li",
+        "Ivan Franceschini",
+        "Krishnashree Achuthan",
+        "Yisroel Mirsky"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gressel",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gressel",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-bai",
+      "title": "United We Defend: Collaborative Membership Inference Defenses in Federated Learning",
+      "authors": [
+        "Li Bai",
+        "Junxu Liu",
+        "Sen Zhang",
+        "Xinwei Zhang",
+        "Qingqing Ye",
+        "Haibo Hu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bai",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bai",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-qu",
+      "title": "Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning",
+      "authors": [
+        "Jian Qu",
+        "Yuchen Zhang",
+        "Jialong Zhang",
+        "Jianfeng Li",
+        "Xiaobo Ma"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qu",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qu",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-piao",
+      "title": "\"Abuse Risks are Often Inherent to Product Features\": Exploring AI Vendors' Bug Bounty and Responsible Disclosure Policies",
+      "authors": [
+        "Yangheran Piao",
+        "Jingjie Li",
+        "Daniel W. Woods"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/piao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/piao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-goel",
+      "title": "PICS: Private Intersection over Committed (and reusable) Sets",
+      "authors": [
+        "Aarushi Goel",
+        "Peihan Miao",
+        "Phuoc Van Long Pham",
+        "Satvinder Singh"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/goel",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/goel",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-qi-bing",
+      "title": "MULCOTAINT: Towards Efficient Multi-tag Dynamic Taint Analysis via Hardware/Software Co-design",
+      "authors": [
+        "Bing Qi",
+        "Yi Yang",
+        "Xiangkun Jia",
+        "Zhengpin Qian",
+        "Huafeng Huang",
+        "Purui Su"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qi-bing",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/qi-bing",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhao-yizhou",
+      "title": "WAVED: Principled Identification of Off-Path Exploitable Weak Verifications within the TCP/IP Protocol Suite",
+      "authors": [
+        "Yizhou Zhao",
+        "Xuewei Feng",
+        "Min Li",
+        "Ke Xu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-yizhou",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-yizhou",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-lu-hongyi",
+      "title": "CuSafe: Capturing Memory Corruption on NVIDIA GPUs",
+      "authors": [
+        "Hongyi Lu",
+        "Fengwei Zhang",
+        "Zhenkai Zhang",
+        "Shuai Wang",
+        "Yanan Guo"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-hongyi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-hongyi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-sun-desen",
+      "title": "Attacks on Approximate Caches in Text-to-Image Diffusion Models",
+      "authors": [
+        "Desen Sun",
+        "Shuncheng Jie",
+        "Sihang Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/sun-desen",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/sun-desen",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kim-daewoo",
+      "title": "Side-Channel Attacks on Open vSwitch",
+      "authors": [
+        "Daewoo Kim",
+        "Sihang Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhai",
+      "title": "A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality",
+      "authors": [
+        "Liming Zhai",
+        "Xuezhou Shang",
+        "Liyun Zhang",
+        "Po Hu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhai",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhai",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gu-cheng",
+      "title": "Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers",
+      "authors": [
+        "Cheng Gu",
+        "Reese Levine",
+        "Zhenkai Zhang",
+        "Tyler Sorensen",
+        "Yanan Guo"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gu-cheng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gu-cheng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhang-guoming",
+      "title": "TrojPix: Electromagnetic Covert Channels via Imperceptible Pixel Modulation",
+      "authors": [
+        "Guoming Zhang",
+        "Huiting Zhang",
+        "Zhenwei Lu",
+        "Heqiang Fu",
+        "Xin Gao",
+        "Riccardo Spolaor",
+        "Yetong Cao",
+        "Yanni Yang",
+        "Pengfei Hu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-tu",
+      "title": "Anonymous Tokens with Designated-Reader Metadata Bit",
+      "authors": [
+        "Aisha Tu",
+        "Meng Jia",
+        "Kun He",
+        "Jing Chen",
+        "Ruiying Du"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/tu",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/tu",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-shen",
+      "title": "Jailbreaking the AMD Secure Processor: Enabling Live Analysis of SEV-SNP's Undocumented Security Boundaries",
+      "authors": [
+        "Author list under embargo."
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shen",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shen",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kim-hodong",
+      "title": "TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling",
+      "authors": [
+        "Hodong Kim",
+        "Gyeongsup Lim",
+        "Seunghee Shin",
+        "Youngjoo Shin",
+        "Junbeom Hur"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-edward",
+      "title": "Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption",
+      "authors": [
+        "Edward Chen",
+        "Fraser Brown",
+        "Wenting Zheng"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-edward",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-edward",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gajland",
+      "title": "Shadowfax: Hybrid Security and Deniability for AKEMs",
+      "authors": [
+        "Phillip Gajland",
+        "Vincent Hwang",
+        "Jonas Janneck"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gajland",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gajland",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-yang-zhaomin",
+      "title": "RBOOT: Accelerating Homomorphic Neural Network Inference by Fusing ReLU within Bootstrapping",
+      "authors": [
+        "Zhaomin Yang",
+        "Chao Niu",
+        "Benqiang Wei",
+        "Zhicong Huang",
+        "Cheng Hong",
+        "Tao Wei"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/yang-zhaomin",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/yang-zhaomin",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-jia-zhipeng",
+      "title": "PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis",
+      "authors": [
+        "Zhipeng Jia",
+        "Xiaokang Yin",
+        "Shuitao Gan",
+        "Chao Zhang",
+        "Hangtian Liu",
+        "Jiangan Ji",
+        "Enzhou Song",
+        "Ruijie Cai",
+        "Jinglei Tan",
+        "Shengli Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-bofei",
+      "title": "Patch-Guided Vulnerability Detection: Extracting Java API Security Rules via Attack–Defense Cross-Analysis",
+      "authors": [
+        "Bofei Chen",
+        "Shuang Liao",
+        "Lei Zhang",
+        "Chibin Zhang",
+        "Mathias Payer",
+        "Yuan Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-jannett",
+      "title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
+      "authors": [
+        "Louis Jannett",
+        "Andreas Mayer",
+        "Maximilian Westers",
+        "Vladislav Mladenov",
+        "Christian Mainka",
+        "Jörg Schwenk"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhang-ruiyi",
+      "title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU's Stack Engine",
+      "authors": [
+        "Ruiyi Zhang",
+        "Tristan Hornetz",
+        "Daniel Weber",
+        "Fabian Thomas",
+        "Michael Schwarz"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-baelde",
+      "title": "Leveraging Cryptographic Simulator Synthesis for Formally Verifying the FOO E-Voting Protocol",
+      "authors": [
+        "David Baelde",
+        "Adrien Koutsos",
+        "Justine Sauvage"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/baelde",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/baelde",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-liu-tong",
+      "title": "The Art of Hide and Seek: Making Pickle-Based Model Supply Chain Poisoning Stealthy Again",
+      "authors": [
+        "Tong Liu",
+        "Guozhu Meng",
+        "Peng Zhou",
+        "Zizhuang Deng",
+        "Shuaiyin Yao",
+        "Kai Chen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-tong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-tong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-breckenridge",
+      "title": "B-Privacy: Defining and Enforcing Privacy in Weighted Voting",
+      "authors": [
+        "Samuel Breckenridge",
+        "Dani Vilardell",
+        "Andrés Fábrega",
+        "Amy Zhao",
+        "Patrick McCorry",
+        "Ari Juels"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/breckenridge",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/breckenridge",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-hetterich-lorenz-instrsem",
+      "title": "InstrSem: Automatically and Generically Inferring Semantics of (Undocumented) CPU Instructions",
+      "authors": [
+        "Lorenz Hetterich",
+        "Fabian Thomas",
+        "Tristan Hornetz",
+        "Michael Schwarz"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-instrsem",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-instrsem",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-hetterich-lorenz-2",
+      "title": "Loongleak: Architectural Cross-Privilege-Boundary Data Leakage on LoongArch CPUs",
+      "authors": [
+        "Lorenz Hetterich",
+        "Tristan Hornetz",
+        "Fabian Thomas",
+        "Michael Schwarz"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-2",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-2",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-ziazi",
+      "title": "Sliding into the Flight Deck's DMs: Practical Message Attacks on CPDLC",
+      "authors": [
+        "Mehdi Ziazi",
+        "Khalid Aleem",
+        "Harshad Sathaye",
+        "Martin Strohmeier"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ziazi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ziazi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-roch",
+      "title": "You Know Why, but Still Rely: The Impact of Explainable AI on Trust, Task Load, and Performance in Cybersecurity Decision-Making",
+      "authors": [
+        "Neele Roch",
+        "Hannah Sievers",
+        "Noé Zufferey",
+        "Verena Zimmermann"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/roch",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/roch",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-klix",
+      "title": "Silicon Heist: (Ransom) Attacks for Cloud FPGAs via Privilege Escalation",
+      "authors": [
+        "Simon Klix",
+        "Felix Hahn",
+        "Maik Ender",
+        "Nils Albartus",
+        "Christof Paar",
+        "Russell Tessier"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/klix",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/klix",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-woll",
+      "title": "Bridging Bitcoin to Second Layers via BitVM2",
+      "authors": [
+        "Robin Linus Woll",
+        "Lukas Aumayr",
+        "Zeta Avarikioti",
+        "Matteo Maffei",
+        "Andrea Pelosi",
+        "Orfeas Stefanos Thyfronitis Litos",
+        "Christos Stefo",
+        "David Tse",
+        "Alexei Zamyatin"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/woll",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/woll",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-al-alsadi",
+      "title": "\"Oh, what people would do with my knife?'' Navigating the Dual-Use Dilemma in PoC Exploit Development, Disclosure, and Community Dynamics",
+      "authors": [
+        "Arwa Al Alsadi",
+        "Lorenz Kustosch",
+        "Lamya Alowain",
+        "Michel Van Eeten",
+        "Carlos H. Gañán"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/al-alsadi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/al-alsadi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-shao-zhenzhe",
+      "title": "Lost in Blockchain Address Misuse: Hidden Cross-Platform Risks and Their Security Impact",
+      "authors": [
+        "Zhenzhe Shao",
+        "Jiashuo Zhang",
+        "Zihao Li",
+        "Daoyuan Wu",
+        "Chong Chen",
+        "Yiming Shen",
+        "Lingfeng Bao",
+        "Yanlin Wang",
+        "Jiachi Chen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shao-zhenzhe",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shao-zhenzhe",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gui",
+      "title": "DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption",
+      "authors": [
+        "Zichen Gui",
+        "Simon-Philipp Merz",
+        "Kenneth G. Paterson",
+        "Sikhar Patranabis"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gui",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gui",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-baum",
+      "title": "Concretely Efficient Blind Signatures Based on VOLE-in-the-Head Proofs and the MAYO Trapdoor",
+      "authors": [
+        "Carsten Baum",
+        "Marvin Beckmann",
+        "Ward Beullens",
+        "Shibam Mukherjee",
+        "Christian Rechberger"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/baum",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/baum",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-huang-yong",
+      "title": "Turn Your Face Into An Attack Surface: Screen Attack Using Facial Reflections in Video Conferencing",
+      "authors": [
+        "Yong Huang",
+        "Yanzhao Lu",
+        "Mingyang Chen",
+        "En Zhang",
+        "Jiazi Li",
+        "Wanqing Tu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-daneshmand",
+      "title": "PROBE+DETECT+MITIGATE (PDM): Enabling Cloud Tenants to Self-Defend against Microarchitectural Attacks",
+      "authors": [
+        "Arash Daneshmand",
+        "Hugo Kermabon-Bobinnec",
+        "Lingyu Wang",
+        "Makan Pourzandi",
+        "Suryadipta Majumdar",
+        "Yosr Jarraya"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/daneshmand",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/daneshmand",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-noh",
+      "title": "ARM MTE Performance in Practice",
+      "authors": [
+        "Taehyun Noh",
+        "Yingchen Wang",
+        "Tal Garfinkel",
+        "Mahesh Madhav",
+        "Daniel Moghimi",
+        "Mattan Erez",
+        "Shravan Narayan"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/noh",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/noh",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kalu",
+      "title": "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore",
+      "authors": [
+        "Kelechi G. Kalu",
+        "Sofia Okorafor",
+        "Tanmay Singla",
+        "Sophie Chen",
+        "Santiago Torres-Arias",
+        "James C. Davis"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kalu",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kalu",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-baweja",
+      "title": "Scribe: Low-memory SNARKs via Read-Write Streaming",
+      "authors": [
+        "Anubhav Baweja",
+        "Pratyush Mishra",
+        "Tushar Mopuri",
+        "Karan Newatia",
+        "Steve Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/baweja",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/baweja",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-ha",
+      "title": "Identifying Provenance of Generative Text-to-Image Models",
+      "authors": [
+        "Anna Yoo Jeong Ha",
+        "Wenxin Ding",
+        "Stanley Wu",
+        "Shawn Shan",
+        "Haitao Zheng",
+        "Ben Y. Zhao"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ha",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ha",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-huang-qiqing",
+      "title": "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
+      "authors": [
+        "Qiqing Huang",
+        "Xingyu Wang",
+        "Wanda Guo",
+        "Guofei Gu",
+        "Hongxin Hu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-qiqing",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-qiqing",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-yuetian",
+      "title": "Window-based Membership Inference Attacks Against Fine-tuned Large Language Models",
+      "authors": [
+        "Yuetian Chen",
+        "Yuntao Du",
+        "Kaiyuan Zhang",
+        "Ashish Kundu",
+        "Charles Fleming",
+        "Bruno Ribeiro",
+        "Ninghui Li"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-yuetian",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-yuetian",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-song-qiurong",
+      "title": "Digital Risks and Coping Practices among Roblox Game Creators",
+      "authors": [
+        "Qiurong Song",
+        "Rie Helene (Lindy) Hernandez",
+        "Xinning Gui",
+        "Yubo Kou"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiurong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiurong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-crow",
+      "title": "Design and Implementation of a Physical Implant Attack on the Boeing 737",
+      "authors": [
+        "Author list under embargo."
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kim-juhee-agentic",
+      "title": "SoK: Attack and Defense Landscape of Agentic AI Systems",
+      "authors": [
+        "Juhee Kim",
+        "Wenbo Guo",
+        "Dawn Song"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-jeong",
+      "title": "Network-Level Prompt and Trait Leakage in Local Research Agents",
+      "authors": [
+        "Hyejun Jeong",
+        "Mohammadreza Teymoorianfard",
+        "Abhinav Kumar",
+        "Amir Houmansadr",
+        "Eugene Bagdasarian"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jeong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jeong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-nguyen-khoa",
+      "title": "NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs",
+      "authors": [
+        "Khoa Nguyen",
+        "Khiem Ton",
+        "NhatHai Phan",
+        "Issa Khalil",
+        "Khang Tran",
+        "Cristian Borcea",
+        "Ruoming Jin",
+        "Abdallah Khreishah",
+        "My T. Thai"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-khoa",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-khoa",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-burbano",
+      "title": "BADControl: Backdoor Attacks Against Control Systems",
+      "authors": [
+        "Luis Burbano",
+        "Hampei Sasahara",
+        "Ruoyu Song",
+        "Z. Berkay Celik",
+        "Alvaro A. Cardenas"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/burbano",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/burbano",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-kabir",
+      "title": "Can we estimate privacy vulnerability of individual records? Towards Mitigating Attribute Inference Attacks on ML Models",
+      "authors": [
+        "Ehsanul Kabir",
+        "Najrin Sultana",
+        "Ninghui Li",
+        "Shagufta Mehnaz"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kabir",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/kabir",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-chen",
+      "title": "Lethe: Purifying Backdoored Large Language Models with Knowledge Dilution",
+      "authors": [
+        "Chen Chen",
+        "Yuchen Sun",
+        "Jiaxin Gao",
+        "Xueluan Gong",
+        "Qian Wang",
+        "Ziyao Liu",
+        "Yongsen Zheng",
+        "Kwok-Yan Lam"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-chen",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-chen",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-fu",
+      "title": "Distributed Synthesis of Differentially Private Tabular Datasets",
+      "authors": [
+        "Yucheng Fu",
+        "Tianyao Gu",
+        "Elaine Shi",
+        "Tianhao Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/fu",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/fu",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-abu-ishgair",
+      "title": "Trustworthy and Confidential SBOM Exchange",
+      "authors": [
+        "Eman Abu Ishgair",
+        "Chinenye Okafor",
+        "Marcela S. Melara",
+        "Santiago Torres-Arias"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/abu-ishgair",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/abu-ishgair",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-bian-song",
+      "title": "Libra: Pattern-Scheduling Co-Optimization for Cross-Scheme FHE Code Generation over GPGPU",
+      "authors": [
+        "Song Bian",
+        "Yintai Sun",
+        "Zian Zhao",
+        "Haowen Pan",
+        "Mingzhe Zhang",
+        "Zhenyu Guan"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bian-song",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bian-song",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-guo-hao",
+      "title": "Efficient and High-Accuracy Secure Two-Party Protocols for a Class of Functions with Real-number Inputs",
+      "authors": [
+        "Hao Guo",
+        "Zhaoqian Liu",
+        "Liqiang Peng",
+        "Shuaishuai Li",
+        "Ximing Fu",
+        "Weiran Liu",
+        "Lin Qu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-hao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-hao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-li-na",
+      "title": "CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage",
+      "authors": [
+        "Na Li",
+        "Yansong Gao",
+        "Hongsheng Hu",
+        "Boyu Kuang",
+        "Anmin Fu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-na",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-na",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-yao-chengtao",
+      "title": "TAT: Attesting Trajectory Integrity of Industrial Robotic Arms",
+      "authors": [
+        "Chengtao Yao",
+        "Chengcheng Zhao",
+        "Peng Cheng",
+        "Jiming Chen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/yao-chengtao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/yao-chengtao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wang-li",
+      "title": "VidLeaks: Membership Inference Attacks Against Text-to-Video Models",
+      "authors": [
+        "Li Wang",
+        "Wenyu Chen",
+        "Ning Yu",
+        "Zheng Li",
+        "Shanqing Guo"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-li",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-li",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chen-pei",
+      "title": "When Fun Turns Toxic: A First Look at Aggressive Advertising in Mini-games",
+      "authors": [
+        "Pei Chen",
+        "Geng Hong",
+        "Yicheng Qin",
+        "Huazhe Wang",
+        "Mengying Wu",
+        "Min Yang",
+        "Ziru Zhao",
+        "Yuanpeng Zhu",
+        "Tao Su"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-pei",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-pei",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhao-shiqian",
+      "title": "When Memory Becomes a Vulnerability: Towards Multi-turn Jailbreak Attacks against Text-to-Image Generation Systems",
+      "authors": [
+        "Shiqian Zhao",
+        "Jiayang Liu",
+        "Yiming Li",
+        "Runyi Hu",
+        "Xiaojun Jia",
+        "Wenshu Fan",
+        "Xiaobao Wu",
+        "Xinfeng Li",
+        "Jie Zhang",
+        "Wei Dong",
+        "Tianwei Zhang",
+        "Luu Anh Tuan"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-shiqian",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-shiqian",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-jiang-qinhong",
+      "title": "SoK: Security of Cyber-physical Systems Under Intentional Electromagnetic Interference Attacks",
+      "authors": [
+        "Qinhong Jiang",
+        "Yan Long",
+        "Youqian Zhang",
+        "Chen Yan",
+        "Xiaoyu Ji",
+        "Xiapu Luo",
+        "Kevin Fu",
+        "Jiannong Cao",
+        "Wenyuan Xu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qinhong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qinhong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhu-chengcheng",
+      "title": "Fend for Yourself! Backdoor Purification in Federated Graph Learning with an Evolving Knowledge Anchor",
+      "authors": [
+        "Chengcheng Zhu",
+        "Yunlong Mao",
+        "Jiale Zhang",
+        "Bosen Rao",
+        "Sheng Zhong"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chengcheng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-chengcheng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-liang",
+      "title": "InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability",
+      "authors": [
+        "Haofei Liang",
+        "Zeyu Liu",
+        "Eran Tromer",
+        "Xiang Xie",
+        "Yu Yu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liang",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liang",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-liu-yijing",
+      "title": "Cracks in the Walled Garden: Dissecting the Gray-Market of Unauthorized iOS App Distribution via Ad Hoc Sideloading",
+      "authors": [
+        "Yijing Liu",
+        "Yiming Zhang",
+        "Baojun Liu",
+        "Haixin Duan"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yijing",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yijing",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-mahdavi",
+      "title": "ZipPIR: High-throughput Single-server PIR without Client-side Storage",
+      "authors": [
+        "Rasoul Akhavan Mahdavi",
+        "Abdulrahman Diaa",
+        "Florian Kerschbaum"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/mahdavi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/mahdavi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-pang-kaiyi",
+      "title": "Provable Secure Steganography Based on Adaptive Dynamic Sampling",
+      "authors": [
+        "Kaiyi Pang",
+        "Minhao Bai"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/pang-kaiyi",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/pang-kaiyi",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-hochrainer",
+      "title": "Arguzz: Testing zkVMs for Soundness and Completeness Bugs",
+      "authors": [
+        "Christoph Hochrainer",
+        "Valentin Wüstholz",
+        "Maria Christakis"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hochrainer",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hochrainer",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-peng-dinglan",
+      "title": "kSFS: Repurposing a Microkernel-like Interface for Fast and Secure In-Kernel Linux File Systems",
+      "authors": [
+        "Dinglan Peng",
+        "Pedro Fonseca"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-dinglan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-dinglan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-ling",
+      "title": "Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs",
+      "authors": [
+        "Zijian Ling",
+        "Pingyi Hu",
+        "Xiuyong Gao",
+        "Xiaojing Ma",
+        "Man Zhou",
+        "Jun Feng",
+        "Songfeng Lu",
+        "Dongmei Zhang",
+        "Bin Benjamin Zhu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ling",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/ling",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-luo",
+      "title": "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents",
+      "authors": [
+        "Jiaqi Luo",
+        "Jiarun Dai",
+        "Fengyu Liu",
+        "Songyang Peng",
+        "Youkun Shi",
+        "Tong Bu",
+        "Geng Hong",
+        "Xudong Pan",
+        "Yuan Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-chang-hongyan",
+      "title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+      "authors": [
+        "Hongyan Chang",
+        "Ergute Bao",
+        "Xinjian Luo",
+        "Ting Yu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chang-hongyan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/chang-hongyan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wang-xiuling",
+      "title": "Inference Attacks Against Graph Generative Diffusion Models",
+      "authors": [
+        "Xiuling Wang",
+        "Xin Huang",
+        "Guibo Luo",
+        "Jianliang Xu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-xiuling",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-xiuling",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-guo-qian",
+      "title": "Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles",
+      "authors": [
+        "Qian Guo",
+        "Denis Nabokov",
+        "Thomas Johansson"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-song-qiyang",
+      "title": "vCause: Efficient and Verifiable Causality Analysis for Cloud-based Endpoint Auditing",
+      "authors": [
+        "Qiyang Song",
+        "Qihang Zhou",
+        "Xiaoqi Jia",
+        "Zhenyu Song",
+        "Wenbo Jiang",
+        "Heqing Huang",
+        "Yong Liu",
+        "Dan Meng"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiyang",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiyang",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-marini",
+      "title": "CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing",
+      "authors": [
+        "Matteo Marini",
+        "Floris Gorter",
+        "Daniele Cono D'Elia",
+        "Cristiano Giuffrida"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/marini",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/marini",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-gu-kangzheng",
+      "title": "KernelRCA: Facilitating Root Cause Analysis of Memory Corruptions in Linux Kernel with Contextual Causality Chain",
+      "authors": [
+        "Kangzheng Gu",
+        "Yifan Zhang",
+        "Yuan Zhang",
+        "Min Yang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gu-kangzheng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/gu-kangzheng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-najjar",
+      "title": "Sy-FAR: Symmetry-based Fair Adversarial Robustness",
+      "authors": [
+        "Haneen Najjar",
+        "Eyal Ronen",
+        "Mahmood Sharif"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/najjar",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/najjar",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-hu-zhenkai",
+      "title": "Ajax: Fast Threshold Fully Homomorphic Encryption without Noise Flooding",
+      "authors": [
+        "Zhenkai Hu",
+        "Haofei Liang",
+        "Xiao Wang",
+        "Xiang Xie",
+        "Kang Yang",
+        "Yu Yu",
+        "Wenhao Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hu-zhenkai",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/hu-zhenkai",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-duong",
+      "title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers",
+      "authors": [
+        "Mathew Duong",
+        "Michael Chesser",
+        "Guy Farrelly",
+        "Surya Nepal",
+        "Damith C. Ranasinghe"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-li-chen",
+      "title": "Differential Trust: Dynamic Multi-Authority Anonymous Credentials with Epoch-Weighted Updates",
+      "authors": [
+        "Chen Li",
+        "Jianting Ning",
+        "Xiulong Liu",
+        "Yulin Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-chen",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-chen",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-cai",
+      "title": "From Texts to Rules: Generating Sigma Rules with Large Language Models from Cyber Threat Reports",
+      "authors": [
+        "Yongxin Cai",
+        "Jing Qiu",
+        "Qingming Li",
+        "Du Cheng",
+        "Lei Chen"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/cai",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/cai",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-han",
+      "title": "Static Detection of TOCTOU Bugs Caused by Kernel Races",
+      "authors": [
+        "Gui-Dong Han",
+        "Jia-Ju Bai",
+        "Qiu-Ji Chen",
+        "Jiqiang Lu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "System Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/han",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/han",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-schlueter-1",
+      "title": "FABRICKED: Misconfiguring Infinity Fabric to Break AMD SEV-SNP",
+      "authors": [
+        "Benedict Schlüter",
+        "Christoph Wech",
+        "Shweta Shinde"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/schlueter-1",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/schlueter-1",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-crump",
+      "title": "OS-Sanitizer: System-wide Latent Defect Inference in Linux Applications",
+      "authors": [
+        "Addison Crump",
+        "Sahil Sihag",
+        "Florian Bauckholt",
+        "Keno Hassler",
+        "Thorsten Holz"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/crump",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/crump",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-braunsdorf",
+      "title": "SafeFFI: Efficient Sanitization at the Boundary Between Safe and Unsafe Code in Rust and Mixed-Language Applications",
+      "authors": [
+        "Oliver Braunsdorf",
+        "Tim Lange",
+        "Konrad Hohentanner",
+        "Julian Horsch",
+        "Johannes Kinder"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wu-lichao",
+      "title": "GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs",
+      "authors": [
+        "Lichao Wu",
+        "Sasha Behrouzi",
+        "Mohamadreza Rostami",
+        "Stjepan Picek",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wu-lichao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wu-lichao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-vlummens",
+      "title": "Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost",
+      "authors": [
+        "Tim Vlummens",
+        "Aniketh Girish",
+        "Nipuna Weerasekara",
+        "Frederik Zuiderveen Borgesius",
+        "Gunes Acar",
+        "Narseo Vallina-Rodriguez"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhu-changjia",
+      "title": "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection",
+      "authors": [
+        "Changjia Zhu",
+        "Xiao Han",
+        "Parush Gera",
+        "Zhuo Lu",
+        "Tempestt Neal",
+        "Yao Liu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security and Privacy for Web, Mobile, and Emerging Technologies",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-changjia",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-changjia",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wan",
+      "title": "When Updates Backfire: A Black-Box Security Analysis of Desktop Software Update Mechanisms",
+      "authors": [
+        "Jie Wan",
+        "Pengcheng Xia",
+        "Haoyu Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-fan",
+      "title": "TopFeaRe: Locating Critical State of Adversarial Resilience for Graphs Regarding Topology-Feature Entanglement",
+      "authors": [
+        "Xinxin Fan",
+        "Wenxiong Chen",
+        "Quanliang Jing",
+        "Chi Lin",
+        "Shaoye Luo",
+        "Wenbo Song",
+        "Yunfeng Lu"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/fan",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/fan",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-li-zhihao",
+      "title": "BatchBoot: Fast Batched Bootstrapping for TFHE scheme and Practical Applications",
+      "authors": [
+        "Zhihao Li",
+        "Hongyu Wang",
+        "Yuan Zhao",
+        "Lichun Li",
+        "Zhiwei Wang",
+        "Jiaxing He",
+        "Changzheng Wei",
+        "Ying Yan",
+        "Lifeng Guo"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-zhihao",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-zhihao",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-miranda-pascual",
+      "title": "The Adverse Effects of Omitting Records in Differential Privacy: How Sampling and Suppression Degrade the Privacy–Utility Tradeoff",
+      "authors": [
+        "Àlex Miranda-Pascual",
+        "Javier Parra-Arnau",
+        "Thorsten Strufe"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/miranda-pascual",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/miranda-pascual",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-jiang-qisheng",
+      "title": "VeCT: Secure and Efficient Constant-Time Code Rewriting with Vector Extensions",
+      "authors": [
+        "Qisheng Jiang",
+        "Danfeng Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qisheng",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qisheng",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-choudhari",
+      "title": "Memclave: Secure In-Memory Enclave for Untrusted Hosts",
+      "authors": [
+        "Amit Choudhari",
+        "Fabian van Rissenbeck",
+        "Christian Rossow"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Hardware Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/choudhari",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/choudhari",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-zhu-kaiming",
+      "title": "Cracking Federated Privacy: Initialization-Resilient Gradient Inversion with Fine-Grained Reconstruction",
+      "authors": [
+        "Kaiming Zhu",
+        "Jinsheng Yang",
+        "Siyang Guo",
+        "Huaqian Qin",
+        "Taiyu Wang",
+        "Junbo Wang",
+        "Yuhong Nan",
+        "Zibin Zheng"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-kaiming",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-kaiming",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-herley",
+      "title": "Estimating the Amount of Script-generated Traffic in a Mixture",
+      "authors": [
+        "Cormac Herley"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/herley",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/herley",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-bienstock",
+      "title": "Quorus: Efficient, Scalable Threshold ML-DSA Signatures from MPC",
+      "authors": [
+        "Alexander Bienstock",
+        "Leo de Castro",
+        "Daniel Escudero",
+        "Antigoni Polychroniadou",
+        "Akira Takahashi"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Applications of Cryptography",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bienstock",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/bienstock",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-cuevas",
+      "title": "Chameleon Channels: Measuring YouTube Accounts Repurposed for Deception and Profit",
+      "authors": [
+        "Alejandro Cuevas",
+        "Manoel Horta Ribeiro",
+        "Nicolas Christin"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Human Aspects",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/cuevas",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/cuevas",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wang-chunlin",
+      "title": "Khost: KVM-based Near Native MCU Firmware Rehosting",
+      "authors": [
+        "Chunlin Wang",
+        "Yicheng Yang",
+        "Yuan Zhang",
+        "Haoyu Xiao",
+        "Yifan Zhang",
+        "Jiarun Dai"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Software Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-chunlin",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-chunlin",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-shang",
+      "title": "Attesting Model Lineage by Consisted Knowledge Evolution with Fine-Tuning Trajectory",
+      "authors": [
+        "Zhuoyi Shang",
+        "Jiasen Li",
+        "Pengzhen Chen",
+        "Yanwei Liu",
+        "Xiaoyan Gu",
+        "Weiping Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shang",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/shang",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-talur",
+      "title": "SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput",
+      "authors": [
+        "Nihal Talur",
+        "Ioannis Demertzis"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Privacy and Anonymity",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/talur",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/talur",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-li-yueming",
+      "title": "E2E-AKMA: An End-to-End Secure and Privacy-Enhancing AKMA Protocol Against the Anchor Function Compromise",
+      "authors": [
+        "Yueming Li",
+        "Long Chen",
+        "Qianwen Gao",
+        "Zhenfeng Zhang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Network Security",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-yueming",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-yueming",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-wang-jiayimei",
+      "title": "Adversarial Patch EXterminator: Zero-Shot and Patch-Agnostic Defense Framework Against Adversarial Patch Attacks",
+      "authors": [
+        "Jiayimei Wang",
+        "Tao Ni",
+        "Guowen Xu",
+        "Qingchuan Zhao",
+        "Cong Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-jiayimei",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-jiayimei",
+      "talkUrl": null
+    },
+    {
+      "id": "usenix-security-2026-cycle1-liu-xiuming",
+      "title": "Quantifying Large Language Model Attacks Through the Lens of Model Cognition",
+      "authors": [
+        "Xiuming Liu",
+        "Chaoxiang He",
+        "Xuanran Yu",
+        "Jichen Chai",
+        "Feiyue Xu",
+        "Sheng Hang",
+        "Hanqing Hu",
+        "Bin Benjamin Zhu",
+        "Hongsheng Hu",
+        "Shi-Feng Sun",
+        "Dawu Gu",
+        "Shuo Wang"
+      ],
+      "venue": "USENIX Security 2026",
+      "cycle": 1,
+      "category": "Security of ML",
+      "usenixUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-xiuming",
+      "paperUrl": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-xiuming",
+      "talkUrl": null
+    }
+  ]
+}
