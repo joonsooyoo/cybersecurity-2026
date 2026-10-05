@@ -49,6 +49,7 @@ th { color:white; background:var(--navy); }
 .lecture-row { display:flex; justify-content:space-between; gap:1.5rem; align-items:center; padding:1.4rem 1rem; border-bottom:1px solid var(--line); }
 .resource-actions { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:.55rem; }
 .pending { flex:none; padding:.45rem .75rem; color:var(--muted); background:#edf1f4; border-radius:4px; font-size:.8rem; font-weight:700; }
+.upload-notice { border-bottom:3px solid #38b76f; color:#276846; background:#edf8f1; }
 .edit-note { margin-top:3rem; border-color:#f0b429; background:#fff9e9; }
 .edit-note p { margin:.25rem 0; }
 pre { overflow-x:auto; margin:.8rem 0 0; padding:.9rem; color:#d7edf6; background:var(--navy); border-radius:4px; font:12px/1.5 var(--mono); }
